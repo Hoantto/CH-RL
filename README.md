@@ -19,7 +19,7 @@
 
     > (2) Modify the road network path name in the file **.\contraction_hierarchies_mdp\test.py** and use the absolute path to indicate the path of the road network dataset to be trained.
 
-    > (3) Run **.\contraction_hierarchies_mdp\test.py** and analyze tje query performance improvements using reinforcement learning.
+    > (3) Run **.\contraction_hierarchies_mdp\test.py** and analyze the query performance improvements using reinforcement learning.
 
     > (4) You can test the performance of the recursive contraction hierarchies algorithm using only the **ipynb** file in folder **.\contraction_hierarchies**.
 
