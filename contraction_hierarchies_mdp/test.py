@@ -45,6 +45,9 @@ def run_ch_mdp():
         
 
 if __name__ == "__main__":
+    """
+    UNDO: Plz modify the absolute file path in the right local or remote file path.
+    """
     env = CH("/home/bhz/source_code/road-network/road-minnesota.txt",weight=False)
     RL = DeepQNetwork(env.n_action, env.n_features,
                       learning_rate=0.01,
@@ -56,7 +59,7 @@ if __name__ == "__main__":
                     #   output_graph=True
                       )
     run_ch_mdp()
-    env.query_test(10)
+    env.query_test(100)
     # env.performance_contrast()
     env.performance_contrast_mdp()
     RL.plot_cost()
