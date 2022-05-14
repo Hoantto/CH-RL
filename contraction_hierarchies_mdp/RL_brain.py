@@ -187,7 +187,7 @@ class DeepQNetwork:
     
     # def offline_learning(self, env):
     #     # run ch-basic to get experience
-
+    # this function has been removed because of the bad performance in improving and shrinking average query time.
         
     def plot_cost(self):
         import matplotlib.pyplot as plt
